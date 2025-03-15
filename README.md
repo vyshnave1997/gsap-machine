@@ -4,6 +4,9 @@
 
 A modern, interactive web project built with Next.js, TypeScript, and React that features smooth scroll animations with GSAP, a circular carousel, and a 3D rotating model rendered using react-three-fiber and drei. The project demonstrates creative use of animations, scroll triggers, and 3D model integration to create a dynamic user experience.
 
+
+[![Watch the video](https://drive.google.com/thumbnail?id=1AgIwmkCO-WwceP9_EgI1wxoYIKH--0W-)](https://drive.google.com/file/d/1AgIwmkCO-WwceP9_EgI1wxoYIKH--0W-/view?usp=drive_link)
+
 ## Features
 
 - **Hero Section:**  
