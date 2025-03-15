@@ -1,40 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+
+
+# Next.js GSAP & Three.js Project
+
+A modern, interactive web project built with Next.js, TypeScript, and React that features smooth scroll animations with GSAP, a circular carousel, and a 3D rotating model rendered using react-three-fiber and drei. The project demonstrates creative use of animations, scroll triggers, and 3D model integration to create a dynamic user experience.
+
+## Features
+
+- **Hero Section:**  
+  - Animated bag and car images with GSAP.
+  - The car image continuously loops across the screen, resetting from the left when it reaches the right edge.
+  
+- **Product Showcase Section:**  
+  - Displays a circular carousel with GSAP animations.
+  - Smooth scrolling triggers animations for product images and labels.
+  
+- **GSAP Cards Section:**  
+  - Interactive cards that scale and move on mouse hover.
+  
+- **3D Model Section:**  
+  - Integration of a GLB model with automatic rotation using react-three-fiber and drei.
+  - Animated lighting and ambient effects for an enhanced visual experience.
+
+## Technologies Used
+
+- **Next.js:** Framework for server-rendered React applications.
+- **React & TypeScript:** Building blocks for the user interface.
+- **GSAP (GreenSock Animation Platform):** For robust animations and scroll-triggered effects.
+- **Three.js & react-three-fiber:** For rendering 3D models.
+- **drei:** Helper library for common tasks in react-three-fiber.
+- **CSS Modules:** Styling the components.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or above recommended)
+- npm or yarn package manager
+
+### Installation
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
+
+2. **Install Dependencies:**
+
+   Using npm:
+
+   ```bash
+   npm install
+   ```
+
+   Or using yarn:
+
+   ```bash
+   yarn install
+   ```
+
+### Running the Project
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Or with yarn:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn dev
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the project.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```plaintext
+your-repo-name/
+├── components/
+│   └── CircularCarouselSingle.tsx      # Carousel component with GSAP animations
+├── pages/
+│   └── index.tsx                       # Main page containing hero, product, card, and 3D model sections
+├── public/
+│   ├── bg.png                          # Background image for the carousel
+│   ├── bag.png                         # Image used in the hero and product sections
+│   ├── car.png                         # Animated car image
+│   └── new.glb                         # 3D model file
+├── styles/
+│   └── Home.module.css                 # CSS module file for styling
+├── package.json
+└── README.md
+```
 
-## Learn More
+## Customization
 
-To learn more about Next.js, take a look at the following resources:
+- **Animations:**  
+  Modify GSAP settings (duration, easing, repeat, etc.) in the code files to adjust the animation behavior.
+  
+- **3D Model:**  
+  Replace `/new.glb` with your own GLB model to personalize the 3D experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- **Carousel Images:**  
+  Update image sources in the carousel components (both overlay and main cards) to suit your content.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Credits
 
-## Deploy on Vercel
+- **[GSAP](https://greensock.com/gsap/):** Powerful animation platform.
+- **[Next.js](https://nextjs.org/):** The React framework for production.
+- **[react-three-fiber](https://github.com/pmndrs/react-three-fiber):** React renderer for Three.js.
+- **[drei](https://github.com/pmndrs/drei):** A helper library for react-three-fiber.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Feel free to contribute by opening issues or submitting pull requests.
+```
+
+This README provides an overview, setup instructions, and an outline of the project structure to help collaborators quickly understand and work with your code. You can modify the content to better suit your project details and personal preferences.
