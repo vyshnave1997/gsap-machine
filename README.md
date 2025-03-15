@@ -7,6 +7,12 @@ A modern, interactive web project built with Next.js, TypeScript, and React that
 
 [![Watch the video](https://drive.google.com/thumbnail?id=1AgIwmkCO-WwceP9_EgI1wxoYIKH--0W-)](https://drive.google.com/file/d/1AgIwmkCO-WwceP9_EgI1wxoYIKH--0W-/view?usp=drive_link)
 
+<video width="640" height="360" controls>
+  <source src="https://drive.google.com/uc?export=download&id=1AgIwmkCO-WwceP9_EgI1wxoYIKH--0W-" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 ## Features
 
 - **Hero Section:**  
