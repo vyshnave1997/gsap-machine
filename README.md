@@ -52,7 +52,7 @@ click this view the video of the project
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/vyshnave1997/gsap-machine.git)
    cd your-repo-name
    ```
 
